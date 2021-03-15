@@ -1,0 +1,11 @@
+{
+  "name": "boostrap_ui_kit",
+  "version": "1.0.0",
+  "description": " Boostrap_UI_Kit is a collection of cutomizable boostrap web components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wendah Nyiawung",
+  "license": "ISC"
+}
