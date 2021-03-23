@@ -1,4 +1,13 @@
 
+// custom colors 
+$footer-1:#10182F;
 $secondary:#D1D5DB;
+.footer-1{
+    background-color: $footer-1;
+    font-family: Roboto, sans-serif;
+    a:hover{
+        color:red;
+    }
+}
 
 @import'../boostrap/scss/bootstrap.scss';
