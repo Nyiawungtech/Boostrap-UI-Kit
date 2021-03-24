@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <link rel="shortcut icon" href="assets/img/bootstrap-social-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/slick-carousel/slick.css">
     <title>Boostrap ui Kits</title>
 </head>
 
@@ -183,16 +184,17 @@
                 <div class="py-4">
                     <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
                         <div class="dropdown">
-                            <button class="btn text-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              English
+                            <button class="btn text-secondary btn-sm dropdown-toggle" type="button"
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                English
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item" href="#">French</a></li>
-                              <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">French</a></li>
+                                <li><a class="dropdown-item" href="#">English</a></li>
                             </ul>
                         </div>
-                       
-                      <ul class="navbar-nav nav-x-0 flex-row justify-content-around justify-content-lg-start">
+
+                        <ul class="navbar-nav nav-x-0 flex-row justify-content-around justify-content-lg-start">
                             <li class="nav-item me-5">
                                 <a href="#" class="nav-link">
                                     <svg width="16" height="16" fill="currentColor" class="bi bi-twitter text-secondary"
@@ -223,15 +225,213 @@
 
                         </ul>
                         <p class="text-secondary">&copy; 2021 Boostrap ui Kits, All rights reserve</p>
-                      
+
                     </div>
                 </div>
 
             </div>
+            <!-- footer-3 -->
+            <!-- footer ends -->
+            <!-- modals-->
+            <!-- Delete modal -->
+            <!-- Button trigger modal -->
 
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary my-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Modal body text goes here.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logins -->
+            <!-- Login-1 -->
+            <div class="row">
+                <div class="col-lg-8 px-0 d-none d-lg-block">
+                    <div class="slider">
+                        <div class="slider__slide-1 px-3">
+                            <div class="slider__slide-1__slide-content">
+                                <h5 class="text-white fs-2">Make it Simple, but <br>significan makes it difference</h5>
+                                <p class="text-white">Go-School got you covered with high quality courses deliverd
+                                    Online</p>
+                                <button class="btn btn-primary rounded-0 btn-sm">
+                                    <a href="#" class="nav-link text-white">Discover More</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slider__slide-2 px-3">
+                            <div class="slider__slide-1__slide-content">
+                                <h5 class="text-white fs-2">Make it Simple, but <br>significan makes it difference</h5>
+                                <p class="text-white">Go-School got you covered with high quality courses deliverd
+                                    Online</p>
+                                <button class="btn btn-primary rounded-0 btn-sm">
+                                    <a href="#" class="nav-link text-white">Discover More</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slider__slide-3 px-3">
+                            <div class="slider__slide-1__slide-content">
+                                <h5 class="text-white fs-2">Make it Simple, but <br>significan makes it difference</h5>
+                                <p class="text-white">Go-School got you covered with high quality courses deliverd
+                                    Online</p>
+                                <button class="btn btn-primary rounded-0 btn-sm">
+                                    <a href="#" class="nav-link text-white">Discover More</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 bg-white px-4 py-4">
+                    <div class="d-flex justify-content-center align-items-center mb-3">
+                        <img src="assets/img/login-1/sch-logo.jpg" alt="school" class="img-fluid ms-4" width="100">
+                    </div>
+                    <div class="">
+                        <h6 class=" text-center">Login to your account</h6>
+                        <form action="" method="post">
+                            <div class="mb-3">
+                                <label for="loginform" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="loginform"
+                                    placeholder="Email or Phone Number">
+                            </div>
+                            <div class="mb-3">
+                                <label for="loginform" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="loginform" placeholder="Password">
+                            </div>
+                            <div class="mb-3 d-flex flex-column flex-lg-row justify-content-between align-items-center">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Remember me
+                                    </label>
+                                </div>
+                                <a href="" class="nav-link">Forgot your Password?</a>
+                            </div>
+                            <div class="d-grid mb-3">
+                                <button type="submit" class="btn btn-primary rounded-0">Login</button>
+                            </div>
+                            <span class="">Don't have an account? <a href="#" class="text-decoration-none">Join
+                                    Go-school today</a></span>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Signup-1 -->
+            <div class="row mt-5">
+                <div class="col-lg-5 signup-1 d-none d-lg-block">
+                    <div class="signup-1__left">
+                        <h4 class="text-white">Welcome to Go-school</h4>
+                        <p class="text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam eaque quasi labore
+                            dolores nulla nostrum voluptatum dolorem animi consequatur.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-7 bg-white px-5 py-5">
+                    <form action="">
+                        <div class="row g-3">
+                            <div class="col-lg-6">
+                                <label for="firstname" class="form-label">Firstname</label>
+                                <input type="text" class="form-control" id="firstname">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="lastname" class="form-label">Lastname</label>
+                                <input type="text" class="form-control" id="lastname">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="phonenumber" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phonenumber">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="password" class="form-label">Confirm Password</label>
+                                <input type="password" class="form-control" id="password">
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Yes i want to recieve occassional emails from Go-school
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        I agree to the <a href="#" class="text-decoration-none">Terms</a> and <a
+                                            href="#" class="text-decoration-none">Conditions</a>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary rounded-0">Create Account</button>
+                            </div>
+                            <div class="col-12">
+                                <span class="">Already have an account? <a href="#"
+                                        class="text-decoration-none">Login</a></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
+    </div>
     <script src="assets/boostrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/JS/jquery-3.6.0.min.js"></script>
+    <script src="assets/slick-carousel/slick.js"></script>
+    <script>
+        $('.slider').slick({
+            // dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            autoplay: true,
+            arrows: false,
+
+
+        });
+    </script>
 </body>
 
 </html>
