@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,115 @@
     <link rel="shortcut icon" href="assets/img/bootstrap-social-logo.png" type="image/x-icon">
     <title>cards</title>
 </head>
+
 <body>
-    
+    <div class="container-fluid bg-secondary py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- Profile card -->
+                    <div class="card shadow-lg border-0 rounded-2" style="width: 22rem;">
+                        <img src="assets/img/profile-card/cover.jpg" alt="" class="img-fluid rounded h-3">
+                        <div class="card-body bg-white rounded-3 -mt-1 z-2">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img src="assets/img/profile-card/profile.jpg" alt=""
+                                    class="img-thumbnail border-0 rounded-pill -mb-5" width="80">
+                            </div>
+                            <h4 class="text-center mt-3">Sanda Minka</h4>
+                            <p class="text-secondary text-center">Yaounde,Cameroon</p>
+                            <div class="mt-3 d-flex align-items-center justify-content-center">
+                                <button class="btn text-primary mx-3"
+                                    style="background-color: rgba(13, 82, 231, 0.247);">Add to friend</button>
+                                <button class="btn btn-primary">View profile</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- stock card -->
+                <div class="col-lg-6">
+                    <div class="card shadow-lg border-0 rounded-3" style="width: 18rem;">
+                        <div class="card-body bg-white rounded-3 p-0 overflow-hidden">
+                            <div class="d-flex justify-content-between align-items-start p-4 rounded-3"
+                                style="background-image: url('./assets/img/stock/stock.jpg');
+                                  background-position: center; background-repeat: no-repeat; background-size: cover; height: 40vh;">
+                                <span
+                                    class="bg-white rounded shadow d-flex justify-content-center align-items-center p-2">
+                                    <svg width="16" height="16" fill="currentColor" class="bi bi-bar-chart text-primary"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z" />
+                                    </svg>
+                                </span>
+                                <span class="badge p-2" style="background-color: rgba(0, 0, 0, 0.479);">
+                                    Tips
+                                </span>
+                            </div>
+
+                            <div class="px-3">
+                                <div class="border-bottom border-secondary pb-3">
+                                    <p class="" style="color: gray;">17 Feb . 14 Comments</p>
+                                    <h5 class=" fs-6">How to predict, when your cryptocurrency can grow the value</h5>
+                                </div>
+                            </div>
+                            <div class="py-3">
+                                <div class="d-flex align-items-center justify-content-start px-3 mt-3">
+                                    <img src="assets/img/stock/1.jpg" alt="img"
+                                        class="img-thumbnail rounded-pill border-0" width="40">
+                                    <img src="assets/img/stock/3.jpg" alt="img"
+                                        class="img-thumbnail rounded-pill border-0" width="40"
+                                        style="margin-left: -1rem;">
+                                    <img src="assets/img/stock/9.jpg" alt="img"
+                                        class="img-thumbnail rounded-pill border-0" width="40"
+                                        style="margin-left: -1rem;">
+                                    <img src="assets/img/stock/10.jpg" alt="img"
+                                        class="img-thumbnail rounded-pill border-0" width="40"
+                                        style="margin-left: -1rem;">
+                                    <p class="ms-3">4 friends like</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class="card border-0 shadow rounded" style="width: 25rem;">
+                        <div class="card-body p-0">
+                            <div
+                                class="border-bottom border-1 border-secondary d-flex justify-content-between align-items-start px-4 py-3">
+                                <div class="d-flex justify-content-center align-items-start">
+                                    <img src="assets/img/stock/1.jpg" alt="" class=" img-fluid rounded-3" width="50">
+                                    <span class="ms-3 mb-0">
+                                        <p class=""><span class="fw-bold">John Daren</span> <br> <span
+                                                class="text-secondary fs-6" style="font-size: 0.1rem;">active 2mins
+                                                ago</span></p>
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <button
+                                        class="btn d-flex justify-content-center align-items-center bg-white rounded border border-secondary p-2">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"
+                                            class="text-black">
+                                            <path
+                                                d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                                        </svg>
+                                    </button>
+                                    <button
+                                        class="btn d-flex justify-content-center align-items-center bg-white rounded border border-secondary p-2 mx-2">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" class="text-black">
+                                            <path d="M8 9a3 3 0 100-6 3 3 0 000 6zM8 11a6 6 0 016 6H2a6 6 0 016-6zM16 7a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z" />
+                                          </svg>
+                                    </button>
+
+                                </div>
+                            </div>
+                            ffff
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
