@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 // custom colors 
 $footer-1:#10182F;
 $secondary:#D1D5DB;
@@ -137,6 +137,8 @@ $secondary:#D1D5DB;
         padding-top: 21rem;
     }
 }
-
+.card{
+    font-family: 'Roboto', sans-serif;
+}
 
 @import'../boostrap/scss/bootstrap.scss';
