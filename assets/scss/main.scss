@@ -3,6 +3,14 @@
 $footer-1:#10182F;
 $secondary:#D1D5DB;
 
+/* |||||| Custom breakpoints*/
+//mobile
+@mixin phone5s {
+    @media only screen and (max-width:378px){
+        @content;
+    }
+}
+
 /* |||||||||| custome margins |||||||||*/
 //negative margin
 //negative margin-bottom
@@ -139,6 +147,25 @@ $secondary:#D1D5DB;
 }
 .card{
     font-family: 'Roboto', sans-serif;
+}
+.profile-card{
+    @include phone5s{
+        width: 18rem;
+    }
+}
+.stock-card{
+    width: 18rem;
+    @include phone5s{
+        width: 22rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    }
+}
+.chat-card{
+    width: 23rem;
+    @include phone5s{
+        width: 22rem;
+    }
 }
 
 @import'../boostrap/scss/bootstrap.scss';
