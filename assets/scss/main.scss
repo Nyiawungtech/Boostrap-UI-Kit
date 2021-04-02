@@ -170,4 +170,42 @@ $secondary:#D1D5DB;
     }
 }
 
+/* |||||||||||||| Sidenavs ||||||||||||*/
+.sidebar-1{
+    width: 8rem;
+    border-radius: 20px 0px 0px 20px;
+    &__link{
+        background-color: #fff;
+        border-radius: 20px 0px 0px 20px;
+        color: #78797a;
+        font-family:'Roboto', sans-serif;
+    }
+    &__link:hover{
+        background-color: #2d36e94b;
+       
+    }
+}
+.sidebar-2{
+    width: 15rem;
+    h5{
+        font-family: 'roboto', sans-serif;
+        font-size: 0.7rem;
+        color: #78797a;
+    }
+    &__link{
+        background-color: #fff;
+        font-family: 'roboto', sans-serif;
+        color: #78797a;
+        border-radius: 0px 10px 10px 0px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    &__link:hover{
+        background-color: #2d36e94b;
+    }
+
+}
+
+   
+
 @import'../boostrap/scss/bootstrap.scss';
